@@ -12,7 +12,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/goccy/go-yaml"
+	"gopkg.in/yaml.v3"
 )
 
 // An ExportNameFunc returns the exported name for a property.
@@ -330,6 +330,7 @@ func (g *Generator) ObserveYAMLReader(r io.Reader) error {
 		}
 	}
 }
+
 
 // ObserveYAMLFile observes YAML values from filename.
 func (g *Generator) ObserveYAMLFile(filename string) error {
