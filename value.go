@@ -82,7 +82,7 @@ func (v *value) observe(a any) *value {
 			v.empties++
 			v.zeros++
 		}
-	case int, int8, int16, int32, int64, uint, uint8, uint16, uint32, uint64:
+	case int:
 		v.ints++
 		if a == 0 {
 			v.empties++
@@ -137,8 +137,6 @@ func (v *value) observe(a any) *value {
 				v.zeros++
 			}
 		}
-	default:
-		panic(fmt.Errorf("%T: unhandled type", a))
 	}
 	return v
 }

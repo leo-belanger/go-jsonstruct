@@ -12,7 +12,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/goccy/go-yaml"
+	"gopkg.in/yaml.v3"
 )
 
 // An ExportNameFunc returns the exported name for a property.
