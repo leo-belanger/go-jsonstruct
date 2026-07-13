@@ -82,7 +82,73 @@ func (v *value) observe(a any) *value {
 			v.empties++
 			v.zeros++
 		}
+	case float32:
+		v.float64s++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
 	case int:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case int8:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case int16:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case int32:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case int64:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case uint:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case uint8:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case uint16:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case uint32:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case uint64:
+		v.ints++
+		if a == 0 {
+			v.empties++
+			v.zeros++
+		}
+	case uintptr:
 		v.ints++
 		if a == 0 {
 			v.empties++
