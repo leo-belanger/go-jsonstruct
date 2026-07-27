@@ -1,6 +1,6 @@
 module github.com/twpayne/go-jsonstruct/v3
 
-go 1.25
+go 1.25.0
 
 tool github.com/twpayne/go-jsonstruct/v3/cmd/gojsonstruct
 
@@ -10,7 +10,7 @@ require (
 	github.com/fatih/camelcase v1.0.0
 	github.com/fatih/structtag v1.2.0
 	github.com/spf13/pflag v1.0.10
-	golang.org/x/net v0.15.0
+	golang.org/x/net v0.56.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -20,5 +20,5 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/text v0.38.0 // indirect
 )
