@@ -1,12 +1,12 @@
 module github.com/twpayne/go-jsonstruct/v3
 
-go 1.25
+go 1.25.13
 
 tool github.com/twpayne/go-jsonstruct/v3/cmd/gojsonstruct
 
 require (
 	github.com/alecthomas/assert/v2 v2.11.0
-	github.com/emicklei/go-restful/v3 v3.7.4
+	github.com/emicklei/go-restful/v3 v3.8.0
 	github.com/fatih/camelcase v1.0.0
 	github.com/fatih/structtag v1.2.0
 	github.com/spf13/pflag v1.0.10
