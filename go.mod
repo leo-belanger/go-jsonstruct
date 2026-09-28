@@ -1,6 +1,6 @@
 module github.com/twpayne/go-jsonstruct/v3
 
-go 1.25.13
+go 1.25.14
 
 tool github.com/twpayne/go-jsonstruct/v3/cmd/gojsonstruct
 
